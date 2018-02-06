@@ -4,6 +4,7 @@ import { translate } from "react-translate";
 
 import Header from './components/header';
 import Hero from './components/hero';
+import Progress from './components/progress';
 import Footer from './components/footer';
 
 class Layout extends React.Component {
@@ -14,6 +15,9 @@ class Layout extends React.Component {
       <div>
         <Header />
         <Hero />
+        <div className="container">
+          <Progress />
+        </div>
         <Footer />
       </div>
     );
