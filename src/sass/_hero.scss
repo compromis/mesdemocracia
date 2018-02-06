@@ -1,3 +1,5 @@
+$notch-radius: 10px;
+
 .hero {
   position: relative;
   background-color: #ff8400;
@@ -12,7 +14,7 @@
     color: #000;
     mix-blend-mode: lighten;
     padding: 3rem 2rem;
-    border-radius: 7px;
+    border-radius: $notch-radius;
   }
 
   .logo {
@@ -77,8 +79,72 @@
       }
     }
 
+    img {
+      width: 50px;
+      margin-bottom: 2rem;
+    }
+
     p {
-      font-weight: bold;
+      font-size: 1.8rem;
+    }
+  }
+
+  .more-info {
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: -3rem;
+
+    img {
+      margin-left: 0.5rem;
+    }
+
+    a {
+      position: relative;
+      font-size: 2rem;
+      display: inline-block;
+      background: #000;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      border-radius: $notch-radius $notch-radius 0 0;
+
+      .border-left,
+      .border-right {
+        position: absolute;
+        bottom: 0;
+        width: $notch-radius;
+        height: $notch-radius;
+        background: #000;
+
+        &:after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: $notch-radius;
+          height: $notch-radius;
+          background: #fff;
+        }
+      }
+
+      .border-left {
+        left: -$notch-radius;
+
+        &:after {
+          border-radius: 0 0 $notch-radius 0;
+        }
+      }
+
+      .border-right {
+        right: -$notch-radius;
+
+        &:after {
+          border-radius: 0 0 0 $notch-radius;
+        }
+      }
+    }
+
+    img {
+      width: 30px;
     }
   }
 }

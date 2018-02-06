@@ -15,8 +15,10 @@ class Layout extends React.Component {
       <div>
         <Header />
         <Hero />
-        <div className="container">
-          <Progress />
+        <div className="main-block">
+          <div className="container" id="content">
+            <Progress />
+          </div>
         </div>
         <Footer />
       </div>
