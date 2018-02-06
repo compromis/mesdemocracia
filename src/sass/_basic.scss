@@ -1,0 +1,26 @@
+body {
+  font-size: 16px;
+  padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-default;
+}
+
+strong {
+  font-family: $font-bold;
+  font-weight: normal;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.main-container {
+  margin-top: 30px;
+}

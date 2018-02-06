@@ -3,6 +3,7 @@ import React from 'react';
 import { translate } from "react-translate";
 
 import Header from './components/header';
+import Hero from './components/hero';
 import Footer from './components/footer';
 
 class Layout extends React.Component {
@@ -12,11 +13,7 @@ class Layout extends React.Component {
     return (
       <div>
         <Header />
-
-        <div className="container">
-          {this.props.t('LABEL')}
-        </div>
-
+        <Hero />
         <Footer />
       </div>
     );
