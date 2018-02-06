@@ -5,6 +5,9 @@ export default {
   Layout: {
     LABEL: "Some bilingual content here",
   },
+  Header: {
+    CAMPAIGN_NAME: "#MésDemocràcia"
+  },
   Footer: {
     FOLLOW_HEADER: "Segueix l'activitat de",
     CAMPAIGN_OF: "és una campanya de"
