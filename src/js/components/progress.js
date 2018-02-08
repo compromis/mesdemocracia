@@ -29,11 +29,11 @@ class Progress extends React.Component {
           '#EA4E29'
       		],
       		hoverBackgroundColor: [
-      		'#FF6384',
-      		'#36A2EB',
-      		'#FFCE56',
+      		'#8BD47C',
+      		'#8BD47C',
+      		'#8BD47C',
           '#FFCE56',
-          '#FFCE56'
+          '#EA4E29'
       		]
       	}]
       },
