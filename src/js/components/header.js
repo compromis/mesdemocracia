@@ -44,7 +44,7 @@ class Header extends React.Component {
                     allowTransparency={true}
                     scrolling="no"
                     className="social-buttons__facebook"
-                    frameborder={0}
+                    frameBorder={0}
                     height={37}>
                   </iframe>
                   <iframe
@@ -54,7 +54,7 @@ class Header extends React.Component {
                     height={37}
                     allowTransparency={true}
                     scrolling="no"
-                    frameborder={0}>
+                    frameBorder={0}>
                   </iframe>
                 </div>
               </li>
