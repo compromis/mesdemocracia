@@ -53,6 +53,14 @@ class Progress extends React.Component {
         <h3>Header</h3>
         <div className="chart">
           <Doughnut data={this.state.chartData} options={this.state.chartOptions} />
+          <div className="legend">Es necessiten <strong>66</strong> per a aprovar la llei</div>
+        </div>
+        <div className="progress-counter">
+          <ul>
+            <li className="yays"><span>55</span> A favor</li>
+            <li className="abs"><span>13</span> Indecís</li>
+            <li className="nays"><span>31</span> En contra</li>
+          </ul>
         </div>
         <p>L’Estatut marca que per a aprovar la llei electoral es necessita el vot de dos terços de Les Corts. Això vol dir 66 diputats i diputades. No és un treball fàcil, però confiem en convèncer a esta àmplia majoria de la necessitat de comptar amb una llei electoral més avançada, democràtica, i participativa.</p>
       </div>
