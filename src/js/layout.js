@@ -11,7 +11,7 @@ import Footer from './components/footer';
 class Layout extends React.Component {
   render() {
     return (
-      <div>
+      <div className="wrapper">
         <Header />
         <Hero />
         <div className="main-block">

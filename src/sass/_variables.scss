@@ -9,6 +9,11 @@ $gray2: #8A919B;
 $block-padding: 30px;
 $gradient-from: #D4432F;
 $gradient-to: #E28333;
+$for: #8BD47C;
+$neutral: #FFCE56;
+$against: #EA4E29;
+
+$notch-radius: 10px;
 
 @mixin compromis-gradient {
   background: linear-gradient(270deg, $gradient-from, $gradient-to);
