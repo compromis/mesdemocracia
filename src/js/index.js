@@ -13,7 +13,6 @@ import spanish from './i18n/es.js';
 var translations = language == 'es' ? spanish : catalan;
 
 class App extends React.Component {
-
   render(){
     return(
       <TranslatorProvider translations={translations}>

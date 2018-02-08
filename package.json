@@ -23,7 +23,9 @@
   },
   "homepage": "https://compromis.net",
   "dependencies": {
+    "chart.js": "^2.7.1",
     "react": "^15.5.4",
+    "react-chartjs-2": "^2.7.0",
     "react-dom": "^15.5.4",
     "react-translate": "^5.0.0"
   },
