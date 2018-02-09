@@ -12,6 +12,7 @@ class Layout extends React.Component {
   render() {
     return (
       <div className="wrapper">
+        <div className="background"></div>
         <Header />
         <Hero />
         <div className="main-block">
