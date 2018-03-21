@@ -1,0 +1,34 @@
+.main-content {
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3rem;
+  }
+
+  h3{
+    margin: 0;
+
+    a {
+      display: block;
+      border-bottom: 1px lighten($gray, 35%) solid;
+      color: $gray;
+      padding: 2rem;
+      transition: 0.1s ease-in;
+
+      span {
+        color: lighten($gray, 35%);
+        width: 4rem;
+        display: inline-block;
+      }
+
+      &:hover {
+        text-decoration: none;
+        background: lighten($gray, 55%);
+      }
+    }
+  }
+
+  .point {
+    display: none;
+  }
+}
