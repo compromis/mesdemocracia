@@ -4,7 +4,7 @@ import { translate } from "react-translate";
 
 import Header from './components/header';
 import Hero from './components/hero';
-import Placeholder from './components/placeholder';
+import Content from './components/content';
 import Progress from './components/progress';
 import Footer from './components/footer';
 
@@ -18,7 +18,7 @@ class Layout extends React.Component {
           <div className="container" id="content">
             <div className="row">
               <div className="col-md-6">
-                <Placeholder />
+                <Content />
               </div>
               <div className="col-md-6">
                 <Progress />
