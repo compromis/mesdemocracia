@@ -37,8 +37,8 @@
     }
   }
 
-  &[aria-selected='true'] h3,
-  &[aria-selected='true'] h3:hover, {
+  &[aria-expanded='true'] h3,
+  &[aria-expanded='true'] h3:hover, {
     background: $gray;
     color: #fff;
   }
@@ -50,7 +50,7 @@
   border-bottom: 1px lighten($gray, 35%) solid;
   background: lighten($gray, 55%);
   opacity: 1;
-  animation: fadein 0.35s ease-in;
+  animation: slidedown 0.35s ease-in;
   overflow: hidden;
 
   li {
@@ -61,7 +61,6 @@
 .accordion__body--hidden {
   display: none;
   opacity: 0;
-  animation: fadein 0.35s ease-in;
 }
 
 .accordion__arrow {
@@ -91,7 +90,7 @@
     transform: rotate(45deg);
 }
 
-[aria-selected='true'] .accordion__arrow::before {
+[aria-expanded='true'] .accordion__arrow::before {
     transform: rotate(-45deg);
 }
 
@@ -100,7 +99,7 @@
     transform: rotate(-45deg);
 }
 
-[aria-selected='true'] .accordion__arrow::after {
+[aria-expanded='true'] .accordion__arrow::after {
     transform: rotate(45deg);
 }
 
@@ -109,7 +108,7 @@
     transition: transform 0.25s ease;
 }
 
-@keyframes fadein {
+@keyframes slidedown {
   0% {
     max-height: 0;
   }

@@ -15,7 +15,7 @@ class Content extends React.Component {
       <div className="box main-content">
         <h2>Les 10 claus de la reforma</h2>
 
-        <Accordion>
+        <Accordion accordion={false}>
           <AccordionItem>
             <AccordionItemTitle>
               <h3><span>1</span> Rebaixa barrera electoral al 3% <div className="accordion__arrow" role="presentation" /></h3>
