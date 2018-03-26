@@ -5,7 +5,7 @@ import { translate } from "react-translate";
 import Header from './components/header';
 import Hero from './components/hero';
 import Content from './components/content';
-import Progress from './components/progress';
+import Support from './components/support';
 import Footer from './components/footer';
 
 class Layout extends React.Component {
@@ -29,7 +29,7 @@ class Layout extends React.Component {
           <div className="container" id="content">
             <div className="row">
               <div className="col-md-12">
-                <Progress />
+                <Support />
               </div>
             </div>
           </div>
