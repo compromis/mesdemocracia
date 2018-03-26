@@ -30,31 +30,7 @@ class Content extends React.Component {
 
           <AccordionItem>
             <AccordionItemTitle>
-              <h3><span>2</span> Facilitar vot de residents a l'estranger <div className="accordion__arrow" role="presentation" /></h3>
-            </AccordionItemTitle>
-            <AccordionItemBody>
-              <p>Els i les residents a l’estranger han de tindre garantit que comptaran amb la documentació necessària per a votar. Tot i que és l’Estat és qui té la competència per modificar el “vot pregat”, amb la nova llei electoral es pot facilitar este vot, especialment pel que fa al retard en l’arribada de la documentació.</p>
-              <ul>
-                <li>Es posarà a disposició dels electors residents absents que viuen en l'estranger els diferents jocs de paperetes en format electrònic de cada circumscripció per poder ser impresos i utilitzats amb total garantia per part dels electors i electores residents a l’estranger.</li>
-              </ul>
-            </AccordionItemBody>
-          </AccordionItem>
-
-          <AccordionItem>
-            <AccordionItemTitle>
-              <h3><span>3</span> Primàries obertes <div className="accordion__arrow" role="presentation" /></h3>
-            </AccordionItemTitle>
-            <AccordionItemBody>
-              <p>Per a enfortir la democràcia interna dels partits s’incentiva la realització de primàries obertes a la ciutadania, ajudant a sufragar els gestos que comporta la realització de primàries.</p>
-              <ul>
-                <li>S’incrementarà en un 5 % l’import de la subvenció electoral per a aquelles candidatures que acrediten, davant la Junta Electoral Valenciana, la utilització d’un procediment de primàries obertes a la ciutadania que garantisca un procés democràtic de concurrència de candidatures i la participació mitjançant vot directe per a l'elecció de les seues llistes.</li>
-              </ul>
-            </AccordionItemBody>
-          </AccordionItem>
-
-          <AccordionItem>
-            <AccordionItemTitle>
-              <h3><span>4</span> Llistes cremallera <div className="accordion__arrow" role="presentation" /></h3>
+              <h3><span>2</span> Llistes cremallera <div className="accordion__arrow" role="presentation" /></h3>
             </AccordionItemTitle>
             <AccordionItemBody>
               <p>L’actual llei electoral valenciana no compta amb cap mesura d’igualtat entre homes i dones, i únicament cal complir la proporció 60-40 que marca la Llei Orgànica estatal 3/2007 per a la igualtat efectiva de dones i homes.</p>
@@ -70,7 +46,7 @@ class Content extends React.Component {
 
           <AccordionItem>
             <AccordionItemTitle>
-              <h3><span>5</span> Vot preferencial, llistes desbloquejades <div className="accordion__arrow" role="presentation" /></h3>
+              <h3><span>3</span> Vot preferencial, llistes desbloquejades <div className="accordion__arrow" role="presentation" /></h3>
             </AccordionItemTitle>
             <AccordionItemBody>
               <p>Volem ser la primera comunitat autònoma que permeta a la ciutadania personalitzar el seu vot en les pròximes eleccions a Les Corts.</p>
@@ -79,6 +55,30 @@ class Content extends React.Component {
                 <li>Els candidats o candidates que compten amb vots preferencials que suposen el 10% del total de vots vàlids obtinguts per la seua candidatura en la circumscripció promouran dins de la llista.</li>
                 <li>Únicament queden exclosos els caps de llista i els suplents.</li>
                 <li>En cas de que l’elector no expresse cap preferència o s’enganye en el vot preferencial, el vot a la candidatura continuarà sent igualment vàlid.</li>
+              </ul>
+            </AccordionItemBody>
+          </AccordionItem>
+
+          <AccordionItem>
+            <AccordionItemTitle>
+              <h3><span>4</span> Facilitar vot de residents a l'estranger <div className="accordion__arrow" role="presentation" /></h3>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+              <p>Els i les residents a l’estranger han de tindre garantit que comptaran amb la documentació necessària per a votar. Tot i que és l’Estat és qui té la competència per modificar el “vot pregat”, amb la nova llei electoral es pot facilitar este vot, especialment pel que fa al retard en l’arribada de la documentació.</p>
+              <ul>
+                <li>Es posarà a disposició dels electors residents absents que viuen en l'estranger els diferents jocs de paperetes en format electrònic de cada circumscripció per poder ser impresos i utilitzats amb total garantia per part dels electors i electores residents a l’estranger.</li>
+              </ul>
+            </AccordionItemBody>
+          </AccordionItem>
+
+          <AccordionItem>
+            <AccordionItemTitle>
+              <h3><span>5</span> Primàries obertes <div className="accordion__arrow" role="presentation" /></h3>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+              <p>Per a enfortir la democràcia interna dels partits s’incentiva la realització de primàries obertes a la ciutadania, ajudant a sufragar els gestos que comporta la realització de primàries.</p>
+              <ul>
+                <li>S’incrementarà en un 5 % l’import de la subvenció electoral per a aquelles candidatures que acrediten, davant la Junta Electoral Valenciana, la utilització d’un procediment de primàries obertes a la ciutadania que garantisca un procés democràtic de concurrència de candidatures i la participació mitjançant vot directe per a l'elecció de les seues llistes.</li>
               </ul>
             </AccordionItemBody>
           </AccordionItem>
