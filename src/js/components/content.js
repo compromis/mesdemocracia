@@ -14,6 +14,7 @@ class Content extends React.Component {
     return (
       <div className="box main-content">
         <h2>Les 10 claus de la reforma</h2>
+        <h4>Llei Electoral presentada per Compromís, PSPV-PSOE i Podemos-Podem</h4>
 
         <Accordion accordion={false}>
           <AccordionItem>
