@@ -77,7 +77,7 @@ class Support extends React.Component {
           <div className="support-counter">
             <ul>
               <li className="yays"><span>54</span> A favor</li>
-              <li className="abs"><span>45</span> Indecís</li>
+              <li className="abs"><span>45</span> Per determinar</li>
               <li className="nays"><span>0</span> En contra</li>
             </ul>
           </div>
