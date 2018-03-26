@@ -50,3 +50,13 @@ strong {
   background: #fff;
   padding: 3rem;
 }
+
+.box.main-content {
+  padding: 1rem;
+}
+
+@media (min-width: $screen-md-min) {
+  .box.main-content {
+    padding: 3rem;
+  }
+}
