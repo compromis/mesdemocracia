@@ -7,8 +7,8 @@ class Header extends React.Component {
     super();
 
     this.state = {
-      sherableURL: 'http://url.net',
-      sherableText: 'Lorem ipsum',
+      sherableURL: 'http://mesdemocracia.com',
+      sherableText: 'Consulta la Proposta de Reforma Electoral de Compromís',
     }
   }
 
