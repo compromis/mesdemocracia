@@ -20,7 +20,7 @@ class Footer extends React.Component {
           </div>
 
           <hr />
-          <p><strong>Campaign name</strong> {this.props.t('CAMPAIGN_OF')} <a href="https://compromis.net" target="_blank">Compromís</a></p>
+          <p><strong>Més Democràcia</strong> {this.props.t('CAMPAIGN_OF')} <a href="https://compromis.net" target="_blank">Compromís</a></p>
           <p><a href="mailto:info@compromis.net">info@compromis.net</a> | 96 382 66 06 | Plaça del Pilar, 1 - 46001 València</p>
           <hr />
         </div>
