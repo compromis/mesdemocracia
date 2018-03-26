@@ -17,14 +17,20 @@
     display: block;
     border-bottom: 1px lighten($gray, 35%) solid;
     color: $gray;
-    padding: 2rem;
+    font-size: 2rem;
+    padding: 2rem 40px;
     padding-right: 60px;
     transition: 0.1s ease-in;
     cursor: pointer;
 
     span {
+      position: absolute;
+      top: 2rem;
+      left: 0;
       opacity: 0.5;
+      width: 30px;
       display: inline-block;
+      text-align: right;
     }
 
     &:hover {
