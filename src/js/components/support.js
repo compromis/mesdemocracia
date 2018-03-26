@@ -84,7 +84,9 @@ class Support extends React.Component {
             </div>
           </div>
           <div className="col-md-4 support-info">
-            <span className="glyphicon glyphicon-info-sign"></span><p>L’Estatut marca que per a aprovar la llei electoral es necessita el vot de dos terços de Les Corts. Això vol dir 66 diputats i diputades. No és un treball fàcil, però confiem en convèncer a esta àmplia majoria de la necessitat de comptar amb una llei electoral més avançada, democràtica, i participativa.</p>
+            <span className="glyphicon glyphicon-info-sign"></span>
+            <p className="warning">A DIA DE HUI LA LLEI NO TÉ ELS SUPORTS NECESSARIS PER A SER APROVADA</p>
+            <p>L’Estatut marca que per a aprovar la llei electoral es necessita el vot de dos terços de Les Corts. Això vol dir 66 diputats i diputades. No és un treball fàcil, però confiem en convèncer a esta àmplia majoria de la necessitat de comptar amb una llei electoral més avançada, democràtica, i participativa.</p>
           </div>
         </div>
       </div>
