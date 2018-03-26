@@ -31,6 +31,10 @@
       text-decoration: none;
       background: lighten($gray, 55%);
     }
+
+    &:active {
+      background: lighten($gray, 45%);
+    }
   }
 
   &[aria-selected='true'] h3,
@@ -45,6 +49,8 @@
   padding: 2rem;
   border-bottom: 1px lighten($gray, 35%) solid;
   background: lighten($gray, 55%);
+  opacity: 1;
+  animation: fadein 0.1s ease-in;
 
   li {
     margin-bottom: 0.5rem;
@@ -53,6 +59,8 @@
 
 .accordion__body--hidden {
   display: none;
+  opacity: 0;
+  animation: fadein 0.1s ease-in;
 }
 
 .accordion__arrow {
@@ -98,6 +106,16 @@
 .accordion__arrow::before,
 .accordion__arrow::after {
     transition: transform 0.25s ease;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes move-down {
