@@ -23,7 +23,6 @@
 
     span {
       opacity: 0.5;
-      width: 4rem;
       display: inline-block;
     }
 
@@ -50,7 +49,8 @@
   border-bottom: 1px lighten($gray, 35%) solid;
   background: lighten($gray, 55%);
   opacity: 1;
-  animation: fadein 0.1s ease-in;
+  animation: fadein 0.35s ease-in;
+  overflow: hidden;
 
   li {
     margin-bottom: 0.5rem;
@@ -60,7 +60,7 @@
 .accordion__body--hidden {
   display: none;
   opacity: 0;
-  animation: fadein 0.1s ease-in;
+  animation: fadein 0.35s ease-in;
 }
 
 .accordion__arrow {
@@ -109,13 +109,12 @@
 }
 
 @keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 1000px;
+  }
 }
 
 @keyframes move-down {
@@ -162,4 +161,12 @@
 .accordion__title[aria-selected='true']:hover .accordion__arrow {
     animation-name: move-up;
     animation-duration: 1.5s;
+}
+
+@media (min-width: $screen-md-min) {
+  .accordion__title {
+    span {
+      width: 4rem;
+    }
+  }
 }
