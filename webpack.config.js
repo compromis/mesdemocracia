@@ -20,10 +20,10 @@ var cssConfig = isProd ? cssProd : cssDev;
 var bootstrapConfig = isProd ? bootstrapEntryPoints.prod : bootstrapEntryPoints.dev;
 
 var ValencianHTML = new HtmlWebpackPlugin({
-            title: '',
-            description: '',
+            title: '#MésDemocràcia: Proposta de Reforma Electoral de Compromís',
+            description: 'Cal acabar amb una de les barreres electorals més dures de tot l’Estat. Proposem reduir la barrera per a que cap valencià es quede sense veu a Les Corts.',
             language: 'ca',
-            thumbnail: 'https://compromis.net/wp-content/themes/Compromis/images/facebook-image.jpg',
+            thumbnail: 'http://mesdemocracia.com/images/thumbnail.png',
             url: '',
             minify: {
                  collapseWhitespace: true
@@ -38,7 +38,7 @@ var SpanishHTML = new HtmlWebpackPlugin({
             title: '',
             description: '',
             language: 'es',
-            thumbnail: 'https://compromis.net/wp-content/themes/Compromis/images/facebook-image.jpg',
+            thumbnail: 'http://mesdemocracia.com/images/thumbnail.png',
             url: '',
             minify: {
                  collapseWhitespace: true
