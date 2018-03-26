@@ -141,6 +141,10 @@ class Content extends React.Component {
             </AccordionItemBody>
           </AccordionItem>
         </Accordion>
+
+        <div className="full-text">
+          <a href="/files/llei.pdf">Text complet de la Proposta de Llei</a>
+        </div>
       </div>
     );
   }
