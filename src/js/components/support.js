@@ -69,21 +69,23 @@ class Support extends React.Component {
     return (
       <div className="box support main-content">
         <h2>Suport de la llei a les Corts</h2>
-        <div className="col-md-8">
-          <div className="chart">
-            <Doughnut data={this.state.chartData} options={this.state.chartOptions} />
-            <div className="legend">Es necessiten <strong>66</strong> per a aprovar la llei</div>
+        <div className="row">
+          <div className="col-md-8">
+            <div className="chart">
+              <Doughnut data={this.state.chartData} options={this.state.chartOptions} />
+              <div className="legend">Es necessiten <strong>66</strong> per a aprovar la llei</div>
+            </div>
+            <div className="support-counter">
+              <ul>
+                <li className="yays"><span>54</span> A favor</li>
+                <li className="abs"><span>45</span> Per determinar</li>
+                <li className="nays"><span>0</span> En contra</li>
+              </ul>
+            </div>
           </div>
-          <div className="support-counter">
-            <ul>
-              <li className="yays"><span>54</span> A favor</li>
-              <li className="abs"><span>45</span> Per determinar</li>
-              <li className="nays"><span>0</span> En contra</li>
-            </ul>
+          <div className="col-md-4 support-info">
+            <span className="glyphicon glyphicon-info-sign"></span><p>L’Estatut marca que per a aprovar la llei electoral es necessita el vot de dos terços de Les Corts. Això vol dir 66 diputats i diputades. No és un treball fàcil, però confiem en convèncer a esta àmplia majoria de la necessitat de comptar amb una llei electoral més avançada, democràtica, i participativa.</p>
           </div>
-        </div>
-        <div className="col-md-4">
-          <p>L’Estatut marca que per a aprovar la llei electoral es necessita el vot de dos terços de Les Corts. Això vol dir 66 diputats i diputades. No és un treball fàcil, però confiem en convèncer a esta àmplia majoria de la necessitat de comptar amb una llei electoral més avançada, democràtica, i participativa.</p>
         </div>
       </div>
     );

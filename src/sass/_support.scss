@@ -1,5 +1,4 @@
 .support-counter {
-  text-align: center;
   margin-bottom: 2rem;
 
   ul {
@@ -9,7 +8,7 @@
 
   li {
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0.5rem 0;
     color: $gray;
 
     span {
@@ -20,6 +19,9 @@
       border-radius: 20px;
       font-size: 2rem;
       margin-right: 0.5rem;
+      width: 80px;
+      display: inline-block;
+      text-align: center;
     }
 
     &.nays span {
@@ -37,7 +39,7 @@
 .legend {
   text-align: center;
   font-size: 1.25rem;
-  width: 130px;
+  width: 110px;
   margin: 0 auto;
   position: relative;
   top: -40px;
@@ -45,16 +47,29 @@
   strong {
     font-weight: bold;
   }
+}
 
-  &:after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 1;
-    height: 177px;
-    border-right: 3px rgba(0, 0, 0, 0.4) dashed;
-    top: -184px;
-    transform: rotate(27deg);
-    left: 131px;
+.support-info .glyphicon {
+  font-size: 3rem;
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+@media (min-width: $screen-md-min) {
+  .support-info {
+    margin-top: 155px;
+  }
+
+  .support-counter {
+    text-align: center;
+
+    li {
+      margin: 0 2rem;
+    }
+  }
+
+  .legend {
+    font-size: 1.5rem;
+    width: 150px;
   }
 }
