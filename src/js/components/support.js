@@ -67,7 +67,7 @@ class Support extends React.Component {
 
   render() {
     return (
-      <div className="box support main-content">
+      <div className="box support">
         <h2>Suport de la llei a les Corts</h2>
         <div className="row">
           <div className="col-md-8">

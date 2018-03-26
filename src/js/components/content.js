@@ -12,7 +12,7 @@ class Content extends React.Component {
 
   render() {
     return (
-      <div className="box main-content">
+      <div className="box main-content points">
         <h2>Les 10 claus de la reforma</h2>
         <h4>Llei Electoral presentada per Compromís, PSPV-PSOE i Podemos-Podem</h4>
 

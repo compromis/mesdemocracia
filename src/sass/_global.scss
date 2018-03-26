@@ -51,12 +51,17 @@ strong {
   padding: 3rem;
 }
 
-.box.main-content {
+.box.support {
   padding: 1rem;
 }
 
+.box.main-content {
+  padding: 1rem 0;
+}
+
 @media (min-width: $screen-md-min) {
-  .box.main-content {
+  .box.main-content,
+  .box.support {
     padding: 3rem;
   }
 }
