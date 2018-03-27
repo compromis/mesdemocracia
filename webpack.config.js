@@ -93,7 +93,6 @@ var config = {
                     loader: 'image-webpack-loader',
                     query: {
                       bypassOnDebug: true,
-                      progressive: true,
 
                       optipng: {
                         optimizationLevel: 5
@@ -103,7 +102,8 @@ var config = {
                         speed: 4
                       },
                       mozjpeg: {
-                        quality: 75
+                        quality: 75,
+                        progressive: true
                       },
                       gifsicle: {
                         interlaced: false
