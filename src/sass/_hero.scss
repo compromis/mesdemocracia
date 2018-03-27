@@ -36,13 +36,13 @@
   }
 
   .points {
-    margin-top: 5rem;
+    max-width: 1100px;
+    margin: 5rem auto 0 auto;
   }
 
   .blocks {
     display: flex;
     flex-direction: column;
-    margin: -1rem;
   }
 
   .block {

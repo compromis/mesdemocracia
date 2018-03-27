@@ -27,7 +27,7 @@ class Hero extends React.Component {
           </div>
           <h1>Més Democràcia</h1>
           <h2>Proposta de Reforma Electoral de Compromís</h2>
-          <div className="container points">
+          <div className="points">
             <div className="blocks">
               <div className="block">
                 <div className="icon"><img src={Percentage} alt="Menys barreres" /></div>
