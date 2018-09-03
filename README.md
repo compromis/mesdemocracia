@@ -1,4 +1,6 @@
-# Blank campaign
+# Més Democràcia
+
+Website for Compromís' campaign Més Democràcia
 
 ## Installation
 
