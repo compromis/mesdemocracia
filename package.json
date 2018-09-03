@@ -31,7 +31,7 @@
     "react-translate": "^5.0.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
@@ -44,7 +44,7 @@
     "html-webpack-plugin": "^2.30.1",
     "image-webpack-loader": "^3.6.0",
     "imports-loader": "^0.7.1",
-    "node-sass": "^4.8.3",
+    "node-sass": "^4.9.3",
     "resolve-url-loader": "^2.3.0",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.18.2",
