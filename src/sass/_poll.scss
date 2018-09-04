@@ -4,6 +4,11 @@
   &__subtitle {
     color: $gray;
   }
+
+  &__small-text {
+    font-size: 1.25rem;
+    color: $gray;
+  }
 }
 
 .chart {

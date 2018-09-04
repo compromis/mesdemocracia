@@ -191,6 +191,17 @@ class Poll extends React.Component {
                     </div>
                   </TabPanel>
                 </Tabs>
+
+                <hr />
+                <div className="poll__small-text">
+                  <strong>Font:</strong> Estudi intern 2017 /
+                  Metodologia: Enquestes telefòniques assistides per ordenador (CATI) /
+                  Població: Persones de 16 anys i més empadronats a municipis valencians /
+                  Grandària de la mostra: 1.200 entrevistes /
+                  Distribució: Variables creuades de grandària del municipi, edat, sexe i situació laboral /
+                  Marge d’error per a totals +/- 2,77%
+                  (95% i p=q=0,5).
+                </div>
             </div>
           </div>
         </div>
