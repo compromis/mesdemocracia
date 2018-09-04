@@ -1,0 +1,46 @@
+@import '../../node_modules/react-tabs/style/react-tabs.scss';
+
+.poll {
+  &__subtitle {
+    color: $gray;
+  }
+}
+
+.chart {
+  &__container {
+    position: relative;
+    height: 450px;
+  }
+}
+
+.react-tabs {
+  &__tab-list {
+    text-align: center;
+    margin: 1rem 0 3rem;
+  }
+
+  &__tab {
+    color: $gray;
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: $screen-md-min) {
+  .react-tabs {
+    &__tab-list {
+      border-bottom: 0;
+    }
+
+    &__tab {
+      border: 0;
+      background: $background;
+      border-radius: 2rem;
+      margin: 0.5rem;
+
+      &--selected {
+        background: $gray;
+        color: #fff;
+      }
+    }
+  }
+}

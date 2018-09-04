@@ -17,10 +17,12 @@
   "homepage": "https://compromis.net",
   "dependencies": {
     "chart.js": "^2.7.2",
+    "lodash": "^4.17.10",
     "react": "^15.6.2",
     "react-accessible-accordion": "^2.2.1",
     "react-chartjs-2": "^2.7.0",
     "react-dom": "^15.6.2",
+    "react-tabs": "^2.3.0",
     "react-translate": "^5.0.0"
   },
   "devDependencies": {
