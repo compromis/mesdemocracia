@@ -62,7 +62,7 @@ class Poll extends React.Component {
           label: 'Ni prou ni poc prioritari',
           borderWidth: 3,
           hoverBorderColor: '#ccc',
-          data: [5,6, 4.5, 4.3, 9.6, 6.8, 1.5, 4.2],
+          data: [4.5, 4.3, 9.6, 6.8, 1.5, 4.2],
           backgroundColor: '#FFCE56',
           hoverBackgroundColor: '#FFCE56'
         },
@@ -120,7 +120,7 @@ class Poll extends React.Component {
           label: 'Molt o prou prioritari',
           borderWidth: 3,
           hoverBorderColor: '#ccc',
-          data: [58.7, 79.2, 84.6, 73.5, 85.8],
+          data: [84.6, 58.7, 79.2, 73.5, 85.8],
           backgroundColor: '#8BD47C',
           hoverBackgroundColor: '#8BD47C'
         },
@@ -128,7 +128,7 @@ class Poll extends React.Component {
           label: 'Ni prou ni poc prioritari',
           borderWidth: 3,
           hoverBorderColor: '#ccc',
-          data: [7.7, 4.8, 2.8, 16.5, 0],
+          data: [2.8, 7.7, 4.8, 16.5, 0],
           backgroundColor: '#FFCE56',
           hoverBackgroundColor: '#FFCE56'
         },
@@ -136,7 +136,7 @@ class Poll extends React.Component {
           label: 'Poc o gens prioritari',
           borderWidth: 3,
           hoverBorderColor: '#ccc',
-          data: [31.8, 13.7, 11.2, 3.5, 10.7],
+          data: [11.2, 31.8, 13.7, 3.5, 10.7],
           backgroundColor: '#C65948',
           hoverBackgroundColor: '#C65948'
         }]
