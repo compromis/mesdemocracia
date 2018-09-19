@@ -155,8 +155,8 @@ class Poll extends React.Component {
       <div className="box poll">
         <h2>Opinió de la ciutadania</h2>
         <p className="poll__subtitle">
-          Pensant en una possible reforma del sistema electoral, com de prioritari considera
-          fer llistes desbloquejades, és a dir, que els ciutadans tinguen la capacitat
+          Com de prioritari considera una reforma electoral que contemple llistes desbloquejades,
+          és a dir, que els ciutadans tinguen la capacitat
           de modificar les llistes electorals?
         </p>
         <div className="row">
