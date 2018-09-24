@@ -6,6 +6,7 @@ import '../fonts/fonts.scss';
 import '../sass/app.scss';
 
 import Layout from './layout';
+import LayoutES from './layout-es';
 
 import catalan from './i18n/ca.js';
 import spanish from './i18n/es.js';
@@ -16,7 +17,7 @@ class App extends React.Component {
   render(){
     return(
       <TranslatorProvider translations={translations}>
-        <Layout />
+        { language == 'es' ? <LayoutES /> : <Layout /> }
       </TranslatorProvider>
     )
   }

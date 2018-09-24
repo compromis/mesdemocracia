@@ -35,13 +35,13 @@ var ValencianHTML = new HtmlWebpackPlugin({
 
 var SpanishHTML = new HtmlWebpackPlugin({
             filename: 'cas/index.html',
-            title: '',
+            title: '#MásDemocracia: Propuesta de Reforma Electoral de Compromís',
             description: '',
             language: 'es',
             thumbnail: 'http://mesdemocracia.com/images/thumbnail.png',
             url: '',
             minify: {
-                 collapseWhitespace: true
+                collapseWhitespace: true
             },
             hash: true,
             template: './src/index.html',

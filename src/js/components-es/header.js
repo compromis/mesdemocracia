@@ -30,7 +30,7 @@ class Header extends React.Component {
               <img src="https://compromis.net/wp-content/themes/Compromis/images/logo-compromis-retina.png" alt="Compromís" />
             </a>
             <div className="navbar-text navbar-campaign-name">
-              <a href="/">#MésDemocràcia</a>
+              <a href="/">#MásDemocracia</a>
             </div>
           </div>
 
