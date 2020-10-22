@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { TranslatorProvider } from "react-translate";
 
-import '../fonts/fonts.scss';
 import '../sass/app.scss';
 
 import Layout from './layout';

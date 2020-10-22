@@ -16,26 +16,16 @@ class Support extends React.Component {
       		'Podemos',
           'Ciudadanos',
           'PP',
-          'No adscritos',
-          'No adscritos',
-          'No adscritos',
-          'No adscritos',
-          'No adscritos',
-          'No adscritos'
+          'Vox'
       	],
       	datasets: [{
           borderWidth: 3,
           hoverBorderColor: '#ccc',
-      		data: [19, 23, 12, 9, 30, 1, 1, 1, 1, 1, 1],
+      		data: [17, 27, 8, 18, 19, 10],
       		backgroundColor: [
       		'#8BD47C',
       		'#8BD47C',
       		'#8BD47C',
-          '#FFCE56',
-          '#FFCE56',
-          '#FFCE56',
-          '#FFCE56',
-          '#FFCE56',
           '#FFCE56',
           '#FFCE56',
           '#FFCE56'
@@ -44,11 +34,6 @@ class Support extends React.Component {
       		'#8BD47C',
       		'#8BD47C',
       		'#8BD47C',
-          '#FFCE56',
-          '#FFCE56',
-          '#FFCE56',
-          '#FFCE56',
-          '#FFCE56',
           '#FFCE56',
           '#FFCE56',
           '#FFCE56'

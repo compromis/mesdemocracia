@@ -11,6 +11,7 @@
   box-shadow: 0 1px 30px 0 rgba(0,0,0,.2);
 
   .navbar-brand {
+    display: flex;
     background: #FFF;
     width: 130px;
     padding: 12px 10px;
@@ -29,7 +30,7 @@
     margin: 12px 10px;
 
     a {
-      font-family: Compromis, 'Helvetica', sans-serif;
+      font-family: manrope, 'Helvetica', sans-serif;
       color: #FFF;
       font-size: 18px;
     }
@@ -55,7 +56,7 @@
   .navbar-nav > .active > a {
     color: #FFF;
     font-weight: bold;
-    font-family: CompromisBold, sans-serif;
+    font-family: manrope, sans-serif;
     background: transparent;
 
     &:hover {

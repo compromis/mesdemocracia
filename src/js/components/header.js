@@ -27,7 +27,7 @@ class Header extends React.Component {
               <span className="icon-bar"></span>
             </button>
             <a className="navbar-brand" href="#">
-              <img src="https://compromis.net/wp-content/themes/Compromis/images/logo-compromis-retina.png" alt="Compromís" />
+              <img src="https://compromis.net/sub/images/logo.svg" alt="Compromís" />
             </a>
             <div className="navbar-text navbar-campaign-name">
               <a href="/">#MésDemocràcia</a>

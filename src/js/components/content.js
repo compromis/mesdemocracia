@@ -31,14 +31,14 @@ class Content extends React.Component {
 
           <AccordionItem>
             <AccordionItemTitle>
-              <h3><span>2</span> Llistes cremallera <div className="accordion__arrow" role="presentation" /></h3>
+              <h3><span>2</span> Paritat en les llistes <div className="accordion__arrow" role="presentation" /></h3>
             </AccordionItemTitle>
             <AccordionItemBody>
               <p>L’actual llei electoral valenciana no compta amb cap mesura d’igualtat entre homes i dones, i únicament cal complir la proporció 60-40 que marca la Llei Orgànica estatal 3/2007 per a la igualtat efectiva de dones i homes.</p>
               <ul>
-                <li>Proposem llistes cremallera per a garantir la igualtat total en l’accés a la representació d’homes i dones.</li>
-                <li>Les dones i homes apareixeran ordenats alternativament, corresponent els llocs imparells a un sexe i els parells a l'altre fins a completar el nombre total de persones candidates.</li>
-                <li>Es blinda esta proporció del 50-50, fins i tot, amb el vot preferencial ja que les persones candidates d’un determinat sexe només promouran al lloc que ocupe el candidat o candidata del seu mateix sexe.</li>
+                <li>Proposem llistes paritàries per a garantir la igualtat total en l’accés a la representació d’homes i dones.</li>
+                <li>Les candidatures s'han de confeccionar de manera que estiguen integrades, com a mínim, per un 50% de dones, respectant aquesta proporció en cada tram de dos llocs. Es respectarà en tot cas el que senyala la regulació estatal (un mínim d’un 40% de cada sexe en trams de 5).</li>
+                <li>Es blinda esta proporció, fins i tot, amb el vot preferencial ja que les persones candidates d’un determinat sexe només promouran al lloc que ocupe el candidat o candidata del seu mateix sexe.</li>
                 <li>Als efectes de la llei, es considera vàlida la identitat de gènere expressada que siga acreditada per la Generalitat Valenciana d'acord amb el que estableix la Llei 8/2017, de 7 d'abril, de la Generalitat, integral del reconeixement del dret a la identitat i a l'expressió de gènere a la Comunitat Valenciana.</li>
                 <li>També es contempla la paritat en la composició de la Junta Electoral Valenciana.</li>
               </ul>

@@ -37,7 +37,7 @@ class Hero extends React.Component {
               <div className="block">
                 <div className="icon"><img src={Equality} alt="Igualtat" /></div>
                 <h3>Més igualtat</h3>
-                <p>Proposem que el parlament reflectisca la realitat en la nostra societat. Amb les llistes cremallera aconseguirem una representació paritària entre homes i dones.</p>
+                <p>Proposem que el parlament reflectisca la realitat en la nostra societat. Amb les llistes paritàries aconseguirem una representació igualitària entre homes i dones.</p>
               </div>
               <div className="block">
                 <div className="icon"><img src={Bullhorn} alt="Participació" /></div>
