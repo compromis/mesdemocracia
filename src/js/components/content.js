@@ -143,7 +143,7 @@ class Content extends React.Component {
         </Accordion>
 
         <div className="full-text">
-          <a href="/files/llei.pdf">Text complet de la Proposta de Llei</a>
+          <a href="https://comprom.is/llei-mesdemo">Text complet de la Proposta de Llei</a>
         </div>
       </div>
     );
