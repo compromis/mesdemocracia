@@ -16,7 +16,7 @@
   "license": "ISC",
   "homepage": "https://compromis.net",
   "dependencies": {
-    "chart.js": "^2.7.2",
+    "chart.js": "^2.9.4",
     "lodash": "^4.17.10",
     "react": "^15.6.2",
     "react-accessible-accordion": "^2.2.1",
